@@ -3,7 +3,6 @@ package com.example.jsonplaceholderapi
 import com.google.gson.annotations.SerializedName
 
 data class comments(
-
     @SerializedName("postId")
     var postId: Int,
     @SerializedName("id")

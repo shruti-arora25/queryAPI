@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.jsonplaceholderapi.databinding.ListItemBinding
 import posts
 
-class RecyclerAdapter(private val list: ArrayList<posts>, context: Context) :
+class RecyclerAdapter(private val list:ArrayList<posts>, context: Context) :
     RecyclerView.Adapter<RecyclerAdapter.MyViewHolder>() {
 
     private lateinit var bind: ListItemBinding

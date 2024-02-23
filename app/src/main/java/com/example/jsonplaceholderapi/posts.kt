@@ -7,7 +7,7 @@ data class posts(
     @SerializedName("id")
     var id: Int,
     @SerializedName("title")
-    var title: String,
+    var title: String?,
     @SerializedName("body")
     var body: String
 
